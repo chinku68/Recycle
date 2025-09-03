@@ -74,9 +74,9 @@ export default function App() {
 
   // Static GPS tracking data
   const vehicles = [
-    { id: 1, name: "Truck A", lat: 17.385, lng: 78.486, status: "Active" },
-    { id: 2, name: "Truck B", lat: 17.4, lng: 78.48, status: "Idle" },
-    { id: 3, name: "Truck C", lat: 17.395, lng: 78.5, status: "Active" },
+    { id: 1, name: "Truck 3", lat: 17.385, lng: 78.486, status: "Active" },
+    { id: 2, name: "Truck 2", lat: 17.4, lng: 78.48, status: "Idle" },
+    { id: 3, name: "Truck 1", lat: 17.395, lng: 78.5, status: "Active" },
   ];
 
   // Map projection helper (simple scaling around a base lat/lng)
